@@ -1,7 +1,7 @@
-﻿<style>
-
+﻿
     body, html {
-        height: 100%;    
+        height: 100%;
+        background-color: black;
 }
 
     .bg-Home {
@@ -76,15 +76,6 @@
 }
 
 
-    .choosefile {
-        color: goldenrod;
-        text-align: left;
-        font-family: Calibri;
-        text-decoration: none;
-        margin-top: 15px;
-        margin-left: 20px;
-    }
-
     .para1 {        
         font-size: 15px;
         font-family: Arial;
@@ -92,7 +83,7 @@
         padding: 100px 30px;
     }
 
-    p, h2, h3 {
+    b, p, h2, h3 {
         color: white;
         font-family: Arial;
     }
@@ -110,6 +101,11 @@
     .footerCR3 {
         font-size: 12px;
         padding: 110px 10px;
+    }
+
+    .footerCR4 {
+        font-size: 12px;
+        padding: 600px 10px;
     }
 
     li {
@@ -139,13 +135,10 @@
     @font-face {
         font-family: UrbanJungleDEMO;
         src: url("UrbanJungleDEMO.otf");
-        url('UrbanJungleDEMO.otf');
 }
 
     #main {
         font-family: UrbanJungleDEMO;
         margin-left: 110px;
+        color: white;
 }
-
-
-</style>
