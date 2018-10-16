@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="stylesheet1.css" />
+
+<head>
+    <title>Escape from Tarkov - Fansite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        function setup() {
+            document.getElementById('buttonid').addEventListener('click', openDialog);
+            function openDialog() {
+                document.getElementById('fileid').click();
+            }
+            document.getElementById('fileid').addEventListener('change', submitForm);
+            function submitForm() {
+                document.getElementById('formid').submit();
+            }
+        }
+    </script>
+
+</head>
+
+<body bgcolor="Black" , onload="setup()">
+
+
+    <div class="bg-Uploads" </div>
+
+    <div id="main">
+        <h1> <font color="White">UPLOADS</font> </h1>
+    </div>
+
+
+    <nav class="li">
+        <ul>
+
+            <li><a class="button" href="index.html">Home</a></li>
+            <li><a class="button" href="News.html">News</a></li>
+            <li><a class="button" href="Uploads.html">Uploads</a></li>
+            <li><a class="button" href="about.html">About</a></li>
+            <li><a class="button" href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- H2 and paragraph text here -->
+
+
+    <div class="about-text">
+        <h2> Upload something! </h2>
+        <p> Click the button below and watch as you upload a picture to the website! </p>
+        <p> Be wary, this is still in a testing phase. Please don't reck my whole website by misusing any exploits and errors in the code :c </p>
+    </div>
+
+
+    <!-- Button code starts here OUTDATED -->
+    <!--
+        <div class="choosefile">
+            <input type="file" name="Upload file" ;
+        </div>
+    -->
+
+    <!-- The real code starts here  -->
+    <form id='formid' action="form.php" method="POST" enctype="multipart/form-data">
+        <input id='fileid' type='file' name='filename' hidden />
+        <input id='buttonid' type='button' value='Upload' />
+        <input type='submit' value='Submit' />
+    </form>
+
+</body>
+
+<footer>
+
+    <div class="footerCR2">
+        <p>All rights go to the original creaters of Escape From Tarkov and BATTLESTATE GAMES LIMITED © </p>
+        <p> This website is a non-commercial, non-profitable fan-created site. I take no rights of any of the content that may or may not be owned by BATTLESTATE GAMES LIMITED or the "Escape from Tarkov" team. </p>
+    </div>
+
+</footer>
+</html>

@@ -1,0 +1,151 @@
+﻿<style>
+
+    body, html {
+        height: 100%;    
+}
+
+    .bg-Home {
+        background-image: url("Escape-From-Tarkov-04-GasMask.png");
+        height: 1000px;
+        width: 100%;
+        top: 100%;
+        left: 100%;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+}
+
+    .bg-Contact {
+        background-image: url("Escape-From-Tarkov-01-Background.png");
+        height: 1000px;
+        width: 100%;
+        top: 100%;
+        left: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+    .bg-About {
+        background-image: url("Escape-From-Tarkov-05-about.png");
+        height: 1000px;
+        width: 100%;
+        top: 100%;
+        left: 100%;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+}
+
+    .bg-Uploads {
+        background-image: url("Escape-From-Tarkov-02-BEAR.png");
+        height: 1000px;
+        width: 100%;
+        top: 100%;
+        left: 100%;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+}
+
+    .bg-News {
+        background-image: url("Escape-From-Tarkov-03-USEC.png");
+        height: 1000px;
+        width: 100%;
+        top: 100%;
+        left: 100%;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+}
+
+    .button {
+        background-color: rgb(6, 6, 6);
+        border: none;
+        color: orange;
+        padding: 10px 30px;
+        text-align: center;
+        font-family: Calibri;
+        font-size: 22px;
+        margin: 4px 2px;
+        opacity: 0.5;
+        transition: 0.2s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer
+}
+
+
+    .choosefile {
+        color: goldenrod;
+        text-align: left;
+        font-family: Calibri;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .para1 {        
+        font-size: 15px;
+        font-family: Arial;
+        margin: inherit;             
+        padding: 100px 30px;
+    }
+
+    p, h2, h3 {
+        color: white;
+        font-family: Arial;
+    }
+
+    .footerCR1 {
+        font-size: 12px;
+        padding: 520px 10px;
+    }
+
+    .footerCR2 {
+        font-size: 12px;
+        padding: 880px 10px;
+    }
+
+    .footerCR3 {
+        font-size: 12px;
+        padding: 110px 10px;
+    }
+
+    li {
+    float:left;
+    }
+
+    .h2-about {
+        line-height: 3.0;
+}
+
+    
+    .about-text {
+        background-color:black; 
+        text-align:left;
+        margin-top: 80px;
+        vertical-align:middle; 
+        padding: 1px 37px;
+        background: rgba(0, 0, 0, 0.6);
+}
+
+
+    .button:hover {
+        opacity: 1
+}
+
+
+    @font-face {
+        font-family: UrbanJungleDEMO;
+        src: url("UrbanJungleDEMO.otf");
+        url('UrbanJungleDEMO.otf');
+}
+
+    #main {
+        font-family: UrbanJungleDEMO;
+        margin-left: 110px;
+}
+
+
+</style>
